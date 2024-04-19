@@ -288,7 +288,7 @@ module.exports = [
     },
   },
   {
-    // If contains either only PR references or some Git Hub related words
+    // If contains some Git Hub keywords
     regex: /\b(prs?|git(\s?hub)?|pull(\s?request)?s?|gh|issues?|commits?|merges?)\b/i,
     execute: (message, client) => {
       const PRs = message.content.match(/#(\d{1,5})\b/g);
@@ -296,7 +296,7 @@ module.exports = [
       if (!PRs.length) {
         return;
       }
-      message.reply(`Linked PRs detected:\n${PRs.map(pr => `[PokéClicker PR${pr}](https://github.com/pokeclicker/pokeclicker/pull/${pr.slice(1)})`).join('\n')}`);
+      message.reply(`Linked PRs detected: ${PRs.map(pr => `[${pr}](https://github.com/pokeclicker/pokeclicker/pull/${pr.slice(1)})`).join(' ')}`);
     },
   },
 ];
