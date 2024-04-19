@@ -296,7 +296,7 @@ module.exports = [
       if (!PRs.length) {
         return;
       }
-      message.reply(`Linked PRs detected : ${PRs.map(pr => `[PokéClicker PR${pr}](https://github.com/pokeclicker/pokeclicker/pull/${pr.slice(1)})`).join(', ')}`);
+      message.reply(`Linked PRs detected:\n${PRs.map(pr => `[PokéClicker PR${pr}](https://github.com/pokeclicker/pokeclicker/pull/${pr.slice(1)})`).join('\n')}`);
     },
   },
 ];
