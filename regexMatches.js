@@ -289,7 +289,7 @@ module.exports = [
   },
   {
     // If contains either only PR references or some Git Hub related words
-    regex: /^(#\d{1,5})(\s+#\d{1,5})*$|\b(prs?|git(\s?hub)?|pull(\s?request)?s?|gh|issues?|commits?|merges?)\b/i,
+    regex: /\b(prs?|git(\s?hub)?|pull(\s?request)?s?|gh|issues?|commits?|merges?)\b/i,
     execute: (message, client) => {
       const PRs = message.content.match(/#(\d{1,5})\b/g);
       // Ensure it matches at least once
