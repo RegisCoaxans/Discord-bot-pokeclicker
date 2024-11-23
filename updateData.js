@@ -90,9 +90,8 @@ const cli = new ESLint({
       gyms[key] = value;
     });
 
-    // So we always get the correct weather/day requirements
-    Weather.currentWeather = () => -1;
-    DayOfWeekRequirement.prototype.getProgress = () => 0;
+    // Prevents requirements from processing their hint based on completion status
+    Requirement.prototype.isCompleted = () => false;
 
     Requirement.prototype.toJSON = function() {
       const req = this.__proto__.constructor.name === 'LazyRequirementWrapper'
@@ -141,7 +140,7 @@ const cli = new ESLint({
         if (mutation) b.hint = mutation.hint;
         return b;
       }),
-      StoneType,
+      StoneType: GameConstants.StoneType,
     };
     return `module.exports = ${JSON.stringify(pokeclickerData, null, 2)}`;
   });

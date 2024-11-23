@@ -426,6 +426,11 @@ module.exports = {
       'page': 'Pikachu (Easter)',
     },
     {
+      'display': '#025 - Pikachu (Palaeontologist)',
+      'type': 'Pokémon',
+      'page': 'Pikachu (Palaeontologist)',
+    },
+    {
       'display': '#026 - Raichu',
       'type': 'Pokémon',
       'page': 'Raichu',
@@ -664,6 +669,11 @@ module.exports = {
       'display': '#052 - Galarian Meowth',
       'type': 'Pokémon',
       'page': 'Galarian Meowth',
+    },
+    {
+      'display': '#052 - Meowth (Phanpy)',
+      'type': 'Pokémon',
+      'page': 'Meowth (Phanpy)',
     },
     {
       'display': '#053 - Persian',
@@ -2679,6 +2689,11 @@ module.exports = {
       'display': '#308 - Medicham',
       'type': 'Pokémon',
       'page': 'Medicham',
+    },
+    {
+      'display': '#308 - Mega Medicham',
+      'type': 'Pokémon',
+      'page': 'Mega Medicham',
     },
     {
       'display': '#309 - Electrike',
@@ -5354,6 +5369,11 @@ module.exports = {
       'display': '#716 - Xerneas',
       'type': 'Pokémon',
       'page': 'Xerneas',
+    },
+    {
+      'display': '#716 - Xerneas (Active)',
+      'type': 'Pokémon',
+      'page': 'Xerneas (Active)',
     },
     {
       'display': '#717 - Yveltal',
@@ -8056,6 +8076,96 @@ module.exports = {
       'page': 'Fairy',
     },
     {
+      'display': 'Normal Catch Type Quests',
+      'type': 'Catch Type Quests',
+      'page': 'Normal',
+    },
+    {
+      'display': 'Fire Catch Type Quests',
+      'type': 'Catch Type Quests',
+      'page': 'Fire',
+    },
+    {
+      'display': 'Water Catch Type Quests',
+      'type': 'Catch Type Quests',
+      'page': 'Water',
+    },
+    {
+      'display': 'Electric Catch Type Quests',
+      'type': 'Catch Type Quests',
+      'page': 'Electric',
+    },
+    {
+      'display': 'Grass Catch Type Quests',
+      'type': 'Catch Type Quests',
+      'page': 'Grass',
+    },
+    {
+      'display': 'Ice Catch Type Quests',
+      'type': 'Catch Type Quests',
+      'page': 'Ice',
+    },
+    {
+      'display': 'Fighting Catch Type Quests',
+      'type': 'Catch Type Quests',
+      'page': 'Fighting',
+    },
+    {
+      'display': 'Poison Catch Type Quests',
+      'type': 'Catch Type Quests',
+      'page': 'Poison',
+    },
+    {
+      'display': 'Ground Catch Type Quests',
+      'type': 'Catch Type Quests',
+      'page': 'Ground',
+    },
+    {
+      'display': 'Flying Catch Type Quests',
+      'type': 'Catch Type Quests',
+      'page': 'Flying',
+    },
+    {
+      'display': 'Psychic Catch Type Quests',
+      'type': 'Catch Type Quests',
+      'page': 'Psychic',
+    },
+    {
+      'display': 'Bug Catch Type Quests',
+      'type': 'Catch Type Quests',
+      'page': 'Bug',
+    },
+    {
+      'display': 'Rock Catch Type Quests',
+      'type': 'Catch Type Quests',
+      'page': 'Rock',
+    },
+    {
+      'display': 'Ghost Catch Type Quests',
+      'type': 'Catch Type Quests',
+      'page': 'Ghost',
+    },
+    {
+      'display': 'Dragon Catch Type Quests',
+      'type': 'Catch Type Quests',
+      'page': 'Dragon',
+    },
+    {
+      'display': 'Dark Catch Type Quests',
+      'type': 'Catch Type Quests',
+      'page': 'Dark',
+    },
+    {
+      'display': 'Steel Catch Type Quests',
+      'type': 'Catch Type Quests',
+      'page': 'Steel',
+    },
+    {
+      'display': 'Fairy Catch Type Quests',
+      'type': 'Catch Type Quests',
+      'page': 'Fairy',
+    },
+    {
       'display': 'Berries',
       'type': 'Berries',
       'page': '',
@@ -8896,6 +9006,11 @@ module.exports = {
       'page': 'Mawilite',
     },
     {
+      'display': 'Medichamite',
+      'type': 'Items',
+      'page': 'Medichamite',
+    },
+    {
       'display': 'Metagrossite',
       'type': 'Items',
       'page': 'Metagrossite',
@@ -9634,6 +9749,11 @@ module.exports = {
       'display': 'Slate Shard',
       'type': 'Items',
       'page': 'Slate Shard',
+    },
+    {
+      'display': 'Palaeontologist Token',
+      'type': 'Items',
+      'page': 'Palaeontologist Token',
     },
     {
       'display': 'Leaf Stone',
@@ -10634,6 +10754,7 @@ module.exports = {
       'display': 'Hatchery',
       'type': 'Hatchery',
       'page': '',
+      'redirects': ['Daycare'],
     },
     {
       'display': 'Hatchery Helpers',
@@ -11181,9 +11302,9 @@ module.exports = {
       'page': 'Gateon Port',
     },
     {
-      'display': 'Pokemon HQ Lab',
+      'display': 'Pokémon HQ Lab',
       'type': 'Towns',
-      'page': 'Pokemon HQ Lab',
+      'page': 'Pokémon HQ Lab',
     },
     {
       'display': "Kaminko's Manor",
@@ -13999,6 +14120,10 @@ module.exports = {
       'display': 'Farm',
       'type': 'Farm',
       'page': '',
+      'redirects': [
+        'Mutating Berries',
+        'Mutation',
+      ],
     },
     {
       'display': 'Farm Simulator',
@@ -14064,6 +14189,13 @@ module.exports = {
       'display': 'Pokérus',
       'type': 'Pokérus',
       'page': '',
+      'redirects': [
+        'EVs',
+        'Effort Values',
+        'Infected',
+        'Contagious',
+        'Resistant',
+      ],
     },
     {
       'display': 'Dream Orbs',
@@ -14078,11 +14210,6 @@ module.exports = {
     {
       'display': 'Daily Deals',
       'type': 'Daily Deals',
-      'page': '',
-    },
-    {
-      'display': 'Daily Deal Chains',
-      'type': 'Daily Deal Chains',
       'page': '',
     },
     {
@@ -14299,6 +14426,7 @@ module.exports = {
       'display': 'Diamonds',
       'type': 'Diamonds',
       'page': '',
+      'redirects': ['Underground'],
     },
     {
       'display': 'Battle Points',
@@ -14369,5 +14497,109 @@ module.exports = {
       'display': 'Drake (Dungeon Guides)',
       'type': 'Dungeon Guides',
       'page': 'Drake',
+    },
+    {
+      'display': 'Click Attack',
+      'type': 'Click Attack',
+      'page': '',
+    },
+    {
+      'display': 'Hatchery',
+      'type': 'Hatchery',
+      'page': '',
+      'redirects': ['Daycare'],
+      'redirect': 'Daycare',
+    },
+    {
+      'display': 'Farm',
+      'type': 'Farm',
+      'page': '',
+      'redirects': [
+        'Mutating Berries',
+        'Mutation',
+      ],
+      'redirect': 'Mutating Berries',
+    },
+    {
+      'display': 'Farm',
+      'type': 'Farm',
+      'page': '',
+      'redirects': [
+        'Mutating Berries',
+        'Mutation',
+      ],
+      'redirect': 'Mutation',
+    },
+    {
+      'display': 'Pokérus',
+      'type': 'Pokérus',
+      'page': '',
+      'redirects': [
+        'EVs',
+        'Effort Values',
+        'Infected',
+        'Contagious',
+        'Resistant',
+      ],
+      'redirect': 'EVs',
+    },
+    {
+      'display': 'Pokérus',
+      'type': 'Pokérus',
+      'page': '',
+      'redirects': [
+        'EVs',
+        'Effort Values',
+        'Infected',
+        'Contagious',
+        'Resistant',
+      ],
+      'redirect': 'Effort Values',
+    },
+    {
+      'display': 'Pokérus',
+      'type': 'Pokérus',
+      'page': '',
+      'redirects': [
+        'EVs',
+        'Effort Values',
+        'Infected',
+        'Contagious',
+        'Resistant',
+      ],
+      'redirect': 'Infected',
+    },
+    {
+      'display': 'Pokérus',
+      'type': 'Pokérus',
+      'page': '',
+      'redirects': [
+        'EVs',
+        'Effort Values',
+        'Infected',
+        'Contagious',
+        'Resistant',
+      ],
+      'redirect': 'Contagious',
+    },
+    {
+      'display': 'Pokérus',
+      'type': 'Pokérus',
+      'page': '',
+      'redirects': [
+        'EVs',
+        'Effort Values',
+        'Infected',
+        'Contagious',
+        'Resistant',
+      ],
+      'redirect': 'Resistant',
+    },
+    {
+      'display': 'Diamonds',
+      'type': 'Diamonds',
+      'page': '',
+      'redirects': ['Underground'],
+      'redirect': 'Underground',
     },
   ]};
