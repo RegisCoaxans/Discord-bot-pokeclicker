@@ -67,7 +67,7 @@ module.exports = {
     const embed = new EmbedBuilder()
       .setTitle(`Upcoming Daily Deals (${maxSlots} slots - ${days} days)`)
       .setColor('#3498db')
-      .setFooter({ text: `Data is up to date as of v${gameVersion}` });
+      .setFooter({ text: `Daily deals are depreciated as of v0.10.21` });
 
     // Calculate name padding
     const allItemsLength = UndergroundItem.list.map(item => item.name.length);
