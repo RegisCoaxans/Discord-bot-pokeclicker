@@ -32,7 +32,7 @@ module.exports = {
     }
 
     const embed = new EmbedBuilder()
-      .setTitle('Upcoming Daily Deals')
+      .setTitle('(Depreciated) Upcoming Daily Deals')
       .setColor('#3498db')
       .setFooter({ text: `Daily deals are depreciated as of v0.10.21` });
 

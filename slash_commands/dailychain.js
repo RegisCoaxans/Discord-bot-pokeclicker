@@ -65,7 +65,7 @@ module.exports = {
     days = Math.max(1, Math.min(1000, days));
 
     const embed = new EmbedBuilder()
-      .setTitle(`Upcoming Daily Deals (${maxSlots} slots - ${days} days)`)
+      .setTitle(`(Depreciated) Upcoming Daily Deals (${maxSlots} slots - ${days} days)`)
       .setColor('#3498db')
       .setFooter({ text: `Daily deals are depreciated as of v0.10.21` });
 
